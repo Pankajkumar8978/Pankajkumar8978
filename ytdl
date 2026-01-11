@@ -143,7 +143,7 @@ def main():
             else:
                 download_video_with_ytdlp(video_url, selected_resolution, folder_name)
         else:
-            print("❌ Too many invalid attempts. Exiting.")
+            print("❌ Too many invalid attempts Exiting.")
 
     else:
         print("❌ Invalid download type. Please run the program again.")
